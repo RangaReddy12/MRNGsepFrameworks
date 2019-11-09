@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Frameworks" parallel="none">
+  <test name="keyword">
+    <classes>
+      <class name="DriverFactory.DriverScript"/>
+         </classes>
+  </test> <!-- keyword -->
+ <test name="datadriven">
+    <classes>
+         <class name="DriverFactory.WebtourReg"/>
+    </classes>
+  </test> <!-- datadriven -->
+<test name="pomsingle">
+    <classes>
+         <class name="DriverFactory.TestScript"/>
+    </classes>
+  </test> <!-- pomsingle -->
+<test name="pomdatadriven">
+    <classes>
+         <class name="DriverFactory.PomDriverScript"/>
+    </classes>
+  </test> <!-- pomdatadriven -->
+</suite> <!-- Suite -->
